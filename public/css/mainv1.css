@@ -1,0 +1,604 @@
+
+.XL-a-clients {
+background-color: #ffffff;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+.XL-a-clients .div {
+background-color: var(--grey0-white);
+width: 1440px;
+height: 1024px;
+position: relative;
+}
+
+.XL-a-clients .onboarding {
+display: flex;
+width: 1440px;
+align-items: center;
+gap: 70px;
+padding: 32px 40px;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.XL-a-clients .value {
+display: flex;
+align-items: center;
+gap: 16px;
+flex-grow: 1;
+position: relative;
+flex: 1;
+}
+
+.XL-a-clients .avatar-logo {
+position: relative;
+width: 40px;
+height: 40px;
+background-color: var(--grey0-white);
+border-radius: 20px;
+overflow: hidden;
+border: 0.5px solid;
+border-color: var(--grey-40);
+}
+
+.XL-a-clients .icon-shopify {
+position: absolute;
+width: 20px;
+height: 20px;
+top: 10px;
+left: 10px;
+}
+
+.XL-a-clients .text-wrapper {
+position: relative;
+width: fit-content;
+font-family: var(--text-large-medium-font-family);
+font-weight: var(--text-large-medium-font-weight);
+color: var(--grey-100);
+font-size: var(--text-large-medium-font-size);
+text-align: right;
+letter-spacing: var(--text-large-medium-letter-spacing);
+line-height: var(--text-large-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-large-medium-font-style);
+}
+
+.XL-a-clients .step-system {
+display: flex;
+width: 859px;
+justify-content: flex-end;
+gap: 16px;
+background-color: var(--grey0-white);
+border-radius: 16px;
+align-items: center;
+position: relative;
+}
+
+.XL-a-clients .step {
+display: inline-flex;
+gap: 8px;
+flex: 0 0 auto;
+align-items: center;
+position: relative;
+}
+
+.XL-a-clients .div-wrapper {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 2px;
+position: relative;
+flex: 0 0 auto;
+background-color: var(--grey-100);
+border-radius: 10px;
+overflow: hidden;
+}
+
+.XL-a-clients .text-wrapper-2 {
+position: relative;
+width: 16px;
+margin-top: -1px;
+font-family: var(--text-small-medium-font-family);
+font-weight: var(--text-small-medium-font-weight);
+color: var(--grey0-white);
+font-size: var(--text-small-medium-font-size);
+text-align: center;
+letter-spacing: var(--text-small-medium-letter-spacing);
+line-height: var(--text-small-medium-line-height);
+font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .text-wrapper-3 {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--text-normal-medium-font-family);
+font-weight: var(--text-normal-medium-font-weight);
+color: var(--grey-100);
+font-size: var(--text-normal-medium-font-size);
+letter-spacing: var(--text-normal-medium-letter-spacing);
+line-height: var(--text-normal-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .icon-short-right {
+position: relative;
+width: 12px;
+height: 12px;
+}
+
+.XL-a-clients .div-wrapper-2 {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 2px;
+position: relative;
+flex: 0 0 auto;
+background-color: var(--grey-40);
+border-radius: 10px;
+overflow: hidden;
+}
+
+.XL-a-clients .label-here {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--text-normal-medium-font-family);
+font-weight: var(--text-normal-medium-font-weight);
+color: var(--grey-40);
+font-size: var(--text-normal-medium-font-size);
+letter-spacing: var(--text-normal-medium-letter-spacing);
+line-height: var(--text-normal-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .button {
+background-color: var(--primaryblue-100);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+position: relative;
+flex: 0 0 auto;
+border-radius: 8px;
+overflow: hidden;
+all: unset;
+box-sizing: border-box;
+}
+
+.XL-a-clients .label {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+padding: 0px 8px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .label-2 {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--text-normal-medium-font-family);
+font-weight: var(--text-normal-medium-font-weight);
+color: var(--grey0-white);
+font-size: var(--text-normal-medium-font-size);
+letter-spacing: var(--text-normal-medium-letter-spacing);
+line-height: var(--text-normal-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .notification {
+display: flex;
+width: 1360px;
+align-items: flex-start;
+gap: 8px;
+padding: 10px;
+position: absolute;
+top: 104px;
+left: 40px;
+background-color: var(--secondaryorange-20);
+border-radius: 8px;
+overflow: hidden;
+}
+
+.XL-a-clients .icon-error {
+position: relative;
+width: 16px;
+height: 16px;
+}
+
+.XL-a-clients .p {
+position: relative;
+flex: 1;
+margin-top: -1px;
+font-family: var(--text-small-regular-font-family);
+font-weight: var(--text-small-regular-font-weight);
+color: var(--secondaryorange-120);
+font-size: var(--text-small-regular-font-size);
+letter-spacing: var(--text-small-regular-letter-spacing);
+line-height: var(--text-small-regular-line-height);
+font-style: var(--text-small-regular-font-style);
+}
+
+.XL-a-clients .overlap-group {
+position: absolute;
+width: 807px;
+height: 727px;
+top: 152px;
+left: 301px;
+}
+
+.XL-a-clients .shape {
+top: 480px;
+left: 593px;
+position: absolute;
+width: 214px;
+height: 247px;
+}
+
+.XL-a-clients .img {
+top: 0;
+left: 0;
+position: absolute;
+width: 214px;
+height: 247px;
+}
+
+.XL-a-clients .main {
+width: 550px;
+position: absolute;
+top: 48px;
+left: 144px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.XL-a-clients .text-wrapper-4 {
+position: relative;
+align-self: stretch;
+margin-top: -0.5px;
+font-family: var(--heading-h3-font-family);
+font-weight: var(--heading-h3-font-weight);
+color: var(--grey-100);
+font-size: var(--heading-h3-font-size);
+letter-spacing: var(--heading-h3-letter-spacing);
+line-height: var(--heading-h3-line-height);
+font-style: var(--heading-h3-font-style);
+}
+
+.XL-a-clients .divider {
+position: relative;
+align-self: stretch;
+width: 100%;
+height: 1px;
+background-color: var(--grey-30);
+}
+
+.XL-a-clients .main-2 {
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.XL-a-clients .logo {
+display: inline-flex;
+align-items: center;
+gap: 20px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .frame {
+position: relative;
+width: 80px;
+height: 80px;
+border-radius: 8px;
+overflow: hidden;
+border: 1px solid;
+border-color: var(--grey-20);
+}
+
+.XL-a-clients .icon-facebook {
+position: absolute;
+width: 40px;
+height: 40px;
+top: 20px;
+left: 20px;
+}
+
+.XL-a-clients .text-wrapper-5 {
+position: relative;
+width: fit-content;
+font-family: var(--text-normal-regular-font-family);
+font-weight: var(--text-normal-regular-font-weight);
+color: var(--primaryblue-100);
+font-size: var(--text-normal-regular-font-size);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+white-space: nowrap;
+font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .textfiled {
+align-self: stretch;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .text-wrapper-6 {
+position: relative;
+align-self: stretch;
+margin-top: -1px;
+font-family: var(--text-small-medium-font-family);
+font-weight: var(--text-small-medium-font-weight);
+color: var(--grey-100);
+font-size: var(--text-small-medium-font-size);
+letter-spacing: var(--text-small-medium-letter-spacing);
+line-height: var(--text-small-medium-line-height);
+font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .input {
+display: flex;
+align-items: center;
+padding: 10px;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+background-color: var(--grey0-white);
+border-radius: 8px;
+overflow: hidden;
+border: 1.5px solid;
+border-color: var(--grey-20);
+}
+
+.XL-a-clients .value-here-wrapper {
+display: flex;
+align-items: center;
+gap: 10px;
+padding: 0px 8px;
+flex-grow: 1;
+position: relative;
+flex: 1;
+}
+
+.XL-a-clients .value-here {
+margin-top: -1px;
+font-family: var(--text-normal-regular-font-family);
+font-weight: var(--text-normal-regular-font-weight);
+color: var(--grey-100);
+font-size: var(--text-normal-regular-font-size);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+position: relative;
+flex: 1;
+font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .value-2 {
+padding: 0px 8px;
+flex-grow: 1;
+position: relative;
+border: none;
+background: none;
+margin-top: -1px;
+font-family: var(--text-normal-regular-font-family);
+font-weight: var(--text-normal-regular-font-weight);
+color: var(--grey-100);
+font-size: var(--text-normal-regular-font-size);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+flex: 1;
+font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .storage {
+gap: 8px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .storage-card {
+justify-content: center;
+gap: 12px;
+padding: 16px 20px;
+border-radius: 8px;
+overflow: hidden;
+border: 1px solid;
+border-color: var(--grey-100);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .frame-2 {
+display: flex;
+align-items: center;
+gap: 12px;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .icon-drive {
+position: relative;
+width: 24px;
+height: 24px;
+}
+
+.XL-a-clients .google-drive {
+position: relative;
+flex: 1;
+font-family: var(--text-normal-medium-font-family);
+font-weight: var(--text-normal-medium-font-weight);
+color: var(--grey-100);
+font-size: var(--text-normal-medium-font-size);
+letter-spacing: var(--text-normal-medium-letter-spacing);
+line-height: var(--text-normal-medium-line-height);
+font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .b-link {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .press-enter {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--text-small-medium-font-family);
+font-weight: var(--text-small-medium-font-weight);
+color: var(--primaryblue-100);
+font-size: var(--text-small-medium-font-size);
+letter-spacing: var(--text-small-medium-letter-spacing);
+line-height: var(--text-small-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .frame-wrapper {
+position: relative;
+align-self: stretch;
+width: 100%;
+height: 4px;
+background-color: var(--primarylight-2);
+}
+
+.XL-a-clients .frame-3 {
+width: 132px;
+height: 4px;
+background-color: var(--primaryblue-100);
+}
+
+.XL-a-clients .frame-4 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+align-self: stretch;
+width: 100%;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .text-wrapper-7 {
+position: relative;
+width: fit-content;
+margin-top: -1px;
+font-family: var(--text-small-medium-font-family);
+font-weight: var(--text-small-medium-font-weight);
+color: var(--grey-40);
+font-size: var(--text-small-medium-font-size);
+letter-spacing: var(--text-small-medium-letter-spacing);
+line-height: var(--text-small-medium-line-height);
+white-space: nowrap;
+font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .textfiled-2 {
+width: 290px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+position: relative;
+flex: 0 0 auto;
+}
+
+.XL-a-clients .value-here-2 {
+position: relative;
+flex: 1;
+margin-top: -1px;
+font-family: var(--text-normal-regular-font-family);
+font-weight: var(--text-normal-regular-font-weight);
+color: transparent;
+font-size: var(--text-normal-regular-font-size);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .span {
+color: #868c96;
+font-family: var(--text-normal-regular-font-family);
+font-style: var(--text-normal-regular-font-style);
+font-weight: var(--text-normal-regular-font-weight);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+font-size: var(--text-normal-regular-font-size);
+}
+
+.XL-a-clients .text-wrapper-8 {
+color: #0e192e;
+font-family: var(--text-normal-regular-font-family);
+font-style: var(--text-normal-regular-font-style);
+font-weight: var(--text-normal-regular-font-weight);
+letter-spacing: var(--text-normal-regular-letter-spacing);
+line-height: var(--text-normal-regular-line-height);
+font-size: var(--text-normal-regular-font-size);
+}
+
+.XL-a-clients .controlls {
+display: flex;
+width: 550px;
+align-items: flex-start;
+justify-content: space-between;
+position: absolute;
+top: 944px;
+left: 445px;
+}
+
+.XL-a-clients .button-2 {
+border: 0.5px solid;
+border-color: var(--grey-40);
+display: inline-flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+position: relative;
+flex: 0 0 auto;
+border-radius: 8px;
+overflow: hidden;
+all: unset;
+box-sizing: border-box;
+}
+

@@ -1,0 +1,308 @@
+.XL-a-clients {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .XL-a-clients .div {
+    background-color: var(--grey0-white);
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .XL-a-clients .onboarding {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    gap: 70px;
+    padding: 32px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .XL-a-clients .value {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .XL-a-clients .avatar-logo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: var(--grey0-white);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 0.5px solid;
+    border-color: var(--grey-40);
+  }
+  
+  .XL-a-clients .icon-shopify {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .XL-a-clients .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-large-medium-font-family);
+    font-weight: var(--text-large-medium-font-weight);
+    color: var(--grey-100);
+    font-size: var(--text-large-medium-font-size);
+    text-align: right;
+    letter-spacing: var(--text-large-medium-letter-spacing);
+    line-height: var(--text-large-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-large-medium-font-style);
+  }
+  
+  .XL-a-clients .step-system {
+    display: flex;
+    width: 859px;
+    justify-content: flex-end;
+    gap: 16px;
+    background-color: var(--grey0-white);
+    border-radius: 16px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .XL-a-clients .step {
+    display: inline-flex;
+    gap: 8px;
+    flex: 0 0 auto;
+    align-items: center;
+    position: relative;
+  }
+  
+  .XL-a-clients .div-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--grey-100);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .XL-a-clients .text-wrapper-2 {
+    position: relative;
+    width: 16px;
+    margin-top: -1px;
+    font-family: var(--text-small-medium-font-family);
+    font-weight: var(--text-small-medium-font-weight);
+    color: var(--grey0-white);
+    font-size: var(--text-small-medium-font-size);
+    text-align: center;
+    letter-spacing: var(--text-small-medium-letter-spacing);
+    line-height: var(--text-small-medium-line-height);
+    font-style: var(--text-small-medium-font-style);
+  }
+  
+  .XL-a-clients .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-normal-medium-font-family);
+    font-weight: var(--text-normal-medium-font-weight);
+    color: var(--grey-100);
+    font-size: var(--text-normal-medium-font-size);
+    letter-spacing: var(--text-normal-medium-letter-spacing);
+    line-height: var(--text-normal-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-normal-medium-font-style);
+  }
+  
+  .XL-a-clients .icon-short-right {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .XL-a-clients .div-wrapper-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--grey-40);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .XL-a-clients .label-here {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-normal-medium-font-family);
+    font-weight: var(--text-normal-medium-font-weight);
+    color: var(--grey-40);
+    font-size: var(--text-normal-medium-font-size);
+    letter-spacing: var(--text-normal-medium-letter-spacing);
+    line-height: var(--text-normal-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-normal-medium-font-style);
+  }
+  
+  .XL-a-clients .button {
+    background-color: var(--primaryblue-100);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .XL-a-clients .label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .XL-a-clients .label-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-normal-medium-font-family);
+    font-weight: var(--text-normal-medium-font-weight);
+    color: var(--grey0-white);
+    font-size: var(--text-normal-medium-font-size);
+    letter-spacing: var(--text-normal-medium-letter-spacing);
+    line-height: var(--text-normal-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-normal-medium-font-style);
+  }
+  
+  .XL-a-clients .shape {
+    top: 632px;
+    left: 894px;
+    position: absolute;
+    width: 214px;
+    height: 247px;
+  }
+  
+  .XL-a-clients .overlap-group {
+    position: absolute;
+    width: 694px;
+    height: 247px;
+    top: 152px;
+    left: 301px;
+  }
+  
+  .XL-a-clients .img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 214px;
+    height: 247px;
+  }
+  
+  .XL-a-clients .main {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 48px;
+    left: 144px;
+  }
+  
+  .XL-a-clients .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.5px;
+    font-family: var(--heading-h3-font-family);
+    font-weight: var(--heading-h3-font-weight);
+    color: var(--grey-100);
+    font-size: var(--heading-h3-font-size);
+    letter-spacing: var(--heading-h3-letter-spacing);
+    line-height: var(--heading-h3-line-height);
+    font-style: var(--heading-h3-font-style);
+  }
+  
+  .XL-a-clients .divider {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: var(--grey-30);
+  }
+  
+  .XL-a-clients .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-normal-regular-font-family);
+    font-weight: var(--text-normal-regular-font-weight);
+    color: var(--grey-80);
+    font-size: var(--text-normal-regular-font-size);
+    letter-spacing: var(--text-normal-regular-letter-spacing);
+    line-height: var(--text-normal-regular-line-height);
+    font-style: var(--text-normal-regular-font-style);
+  }
+  
+  .XL-a-clients .controlls {
+    display: flex;
+    width: 550px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 944px;
+    left: 445px;
+  }
+  
+  .XL-a-clients .button-2 {
+    border: 0.5px solid;
+    border-color: var(--grey-40);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .XL-a-clients .button-3 {
+    background-color: var(--primaryblue-40);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    all: unset;
+    box-sizing: border-box;
+  }
+  

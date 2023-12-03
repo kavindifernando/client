@@ -1,0 +1,597 @@
+    .XL-a-clients {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.XL-a-clients .div {
+  background-color: var(--grey0-white);
+  width: 1440px;
+  height: 1060px;
+  position: relative;
+}
+
+.XL-a-clients .top-navigation {
+  position: absolute;
+  width: 1440px;
+  height: 64px;
+  top: 0;
+  left: 0;
+}
+
+.XL-a-clients .more {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 12px;
+  left: 20px;
+}
+
+.XL-a-clients .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 18px;
+  left: 68px;
+}
+
+.XL-a-clients .img {
+  position: relative;
+  width: 23.8px;
+  height: 28px;
+}
+
+.XL-a-clients .SOCIALGAINES {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--grey-100);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.XL-a-clients .text-wrapper {
+  font-family: var(--text-normal-regular-font-family);
+  font-weight: var(--text-normal-regular-font-weight);
+  color: #0e192e;
+  font-size: var(--text-normal-regular-font-size);
+  letter-spacing: var(--text-normal-regular-letter-spacing);
+  line-height: var(--text-normal-regular-line-height);
+  font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .span {
+  font-family: var(--text-normal-medium-font-family);
+  font-weight: var(--text-normal-medium-font-weight);
+  font-style: var(--text-normal-medium-font-style);
+  letter-spacing: var(--text-normal-medium-letter-spacing);
+  line-height: var(--text-normal-medium-line-height);
+  font-size: var(--text-normal-medium-font-size);
+}
+
+.XL-a-clients .controlls {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  top: 18px;
+  left: 1272px;
+}
+
+.XL-a-clients .img-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.XL-a-clients .avatar-profile {
+  width: 28px;
+  height: 28px;
+  background-image: url(./img/avatar-profile.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+  border-radius: 20px;
+}
+
+.XL-a-clients .tab-system {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  top: 0;
+  left: 264px;
+}
+
+.XL-a-clients .tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 18px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: var(--primaryblue-100);
+}
+
+.XL-a-clients .content {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .tab-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-normal-medium-font-family);
+  font-weight: var(--text-normal-medium-font-weight);
+  color: var(--grey-80);
+  font-size: var(--text-normal-medium-font-size);
+  letter-spacing: var(--text-normal-medium-letter-spacing);
+  line-height: var(--text-normal-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .icon-chevron-down {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.XL-a-clients .content-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 18px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .tab-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-normal-regular-font-family);
+  font-weight: var(--text-normal-regular-font-weight);
+  color: var(--grey-60);
+  font-size: var(--text-normal-regular-font-size);
+  letter-spacing: var(--text-normal-regular-letter-spacing);
+  line-height: var(--text-normal-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .main {
+  display: flex;
+  flex-direction: column;
+  width: 1360px;
+  align-items: flex-start;
+  position: absolute;
+  top: 96px;
+  left: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.XL-a-clients .title {
+  display: flex;
+  width: 1360px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--heading-h3-font-family);
+  font-weight: var(--heading-h3-font-weight);
+  color: var(--grey-100);
+  font-size: var(--heading-h3-font-size);
+  letter-spacing: var(--heading-h3-letter-spacing);
+  line-height: var(--heading-h3-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h3-font-style);
+}
+
+.XL-a-clients .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primaryblue-100);
+  border-radius: 8px;
+  overflow: hidden;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.XL-a-clients .label-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .label-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-normal-medium-font-family);
+  font-weight: var(--text-normal-medium-font-weight);
+  color: var(--grey0-white);
+  font-size: var(--text-normal-medium-font-size);
+  letter-spacing: var(--text-normal-medium-letter-spacing);
+  line-height: var(--text-normal-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .tab-system-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .controlls-2 {
+  position: relative;
+  width: 1360px;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .table {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .top {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-color: var(--grey-20);
+}
+
+.XL-a-clients .sort {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .checkbox {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1.5px solid;
+  border-color: var(--grey-40);
+}
+
+.XL-a-clients .sort-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.XL-a-clients .sort-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: var(--text-small-medium-font-family);
+  font-weight: var(--text-small-medium-font-weight);
+  color: var(--grey-100);
+  font-size: var(--text-small-medium-font-size);
+  letter-spacing: var(--text-small-medium-letter-spacing);
+  line-height: var(--text-small-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .img-3 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.XL-a-clients .sort-4 {
+  display: flex;
+  width: 140px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px 0px;
+  position: relative;
+}
+
+.XL-a-clients .sort-5 {
+  position: relative;
+  width: 20px;
+}
+
+.XL-a-clients .table-row-client {
+  display: flex;
+  width: 1360px;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--grey0-white);
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+  border-color: var(--grey-20);
+}
+
+.XL-a-clients .table-cell {
+  display: inline-flex;
+  gap: 10px;
+  padding: 24px 0px;
+  background-color: var(--grey0-white);
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .table-cell-default {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px 0px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--grey0-white);
+}
+
+.XL-a-clients .avatar-logo {
+  width: 32px;
+  height: 32px;
+  background-color: var(--grey0-white);
+  overflow: hidden;
+  border: 0.5px solid;
+  border-color: var(--grey-40);
+  position: relative;
+  border-radius: 20px;
+}
+
+.XL-a-clients .img-4 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 8px;
+}
+
+.XL-a-clients .table-cell-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 14px 0px;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--grey0-white);
+}
+
+.XL-a-clients .value {
+  font-family: var(--text-normal-medium-font-family);
+  font-weight: var(--text-normal-medium-font-weight);
+  color: var(--grey-100);
+  position: relative;
+  width: fit-content;
+  font-size: var(--text-normal-medium-font-size);
+  letter-spacing: var(--text-normal-medium-letter-spacing);
+  line-height: var(--text-normal-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-normal-medium-font-style);
+}
+
+.XL-a-clients .table-cell-3 {
+  display: flex;
+  width: 140px;
+  gap: 4px;
+  padding: 22px 0px;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--grey0-white);
+}
+
+.XL-a-clients .tag {
+  background-color: var(--secondarygreen-100);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.XL-a-clients .div-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.XL-a-clients .label-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-medium-font-family);
+  font-weight: var(--text-small-medium-font-weight);
+  color: var(--grey0-white);
+  font-size: var(--text-small-medium-font-size);
+  letter-spacing: var(--text-small-medium-letter-spacing);
+  line-height: var(--text-small-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .table-cell-4 {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  justify-content: center;
+  padding: 14px 0px;
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--grey0-white);
+}
+
+.XL-a-clients .value-2 {
+  font-family: var(--text-normal-regular-font-family);
+  font-weight: var(--text-normal-regular-font-weight);
+  color: var(--grey-80);
+  position: relative;
+  width: fit-content;
+  font-size: var(--text-normal-regular-font-size);
+  letter-spacing: var(--text-normal-regular-letter-spacing);
+  line-height: var(--text-normal-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-normal-regular-font-style);
+}
+
+.XL-a-clients .icon-chevron-right-wrapper {
+  display: inline-flex;
+  gap: 10px;
+  padding: 22px 0px;
+  flex: 0 0 auto;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--grey0-white);
+}
+
+.XL-a-clients .tag-2 {
+  border: 1px solid;
+  border-color: var(--grey-60);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.XL-a-clients .label-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-medium-font-family);
+  font-weight: var(--text-small-medium-font-weight);
+  color: var(--grey-80);
+  font-size: var(--text-small-medium-font-size);
+  letter-spacing: var(--text-small-medium-letter-spacing);
+  line-height: var(--text-small-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .tag-3 {
+  border: 1px solid;
+  border-color: var(--primaryblue-60);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.XL-a-clients .label-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-medium-font-family);
+  font-weight: var(--text-small-medium-font-weight);
+  color: var(--primaryblue-100);
+  font-size: var(--text-small-medium-font-size);
+  letter-spacing: var(--text-small-medium-letter-spacing);
+  line-height: var(--text-small-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-medium-font-style);
+}
+
+.XL-a-clients .tag-4 {
+  border: 1px solid;
+  border-color: var(--secondaryred-60);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.XL-a-clients .label-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--text-small-medium-font-family);
+  font-weight: var(--text-small-medium-font-weight);
+  color: var(--secondaryred-100);
+  font-size: var(--text-small-medium-font-size);
+  letter-spacing: var(--text-small-medium-letter-spacing);
+  line-height: var(--text-small-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--text-small-medium-font-style);
+}
